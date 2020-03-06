@@ -1,0 +1,18 @@
+@(sunInfo: model.SunInfo, temperature: Double)
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Home</title>
+		<link
+			rel="shortcut icon"
+			type="image/png"
+			href='@routes.Application.versioned("images/favicon.png")'
+		/>
+	</head>
+	<body>
+		<h1>Hello Play</h1>
+		<div>Sunrise time: @sunInfo.sunrise</div>
+		<div>Sunset time: @sunInfo.sunset</div>
+		<div>Temperature: @temperature</div>
+	</body>
+</html>
