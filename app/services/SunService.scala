@@ -1,3 +1,5 @@
+package services
+
 import model.SunInfo
 import java.time.{ZoneId, ZonedDateTime}
 import java.time.format.DateTimeFormatter
